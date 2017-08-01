@@ -1,14 +1,16 @@
 #ifndef READXMLPROFILE_H
 #define READXMLPROFILE_H
 
-#include <string>
+#include <QString>
 #include <QFile>
 #include <QTextStream>
+
+#include "logger.h"
 
 class ReadXmlProfile
 {
 public:
-    ReadXmlProfile(const std::string& patchName);
+    ReadXmlProfile(const QString& patchName);
     void readTextAllXmlProfile(const QString& patchName);
 private:
     QString xmlProfile_;
