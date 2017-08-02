@@ -13,7 +13,7 @@ public:
     ReadXmlProfile(const QString& patchName);
     void readTextAllXmlProfile(const QString& patchName);
 private:
-    QString xmlProfile_;
+    QString m_xmlProfile_;
 };
 
 #endif // READXMLPROFILE_H

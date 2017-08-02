@@ -11,7 +11,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     readxmlprofile.cpp \
-    logger.cpp
+    logger.cpp \
+    cemptyelement.cpp \
+    celementwithcontent.cpp \
+    ielementtag.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -26,4 +29,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 HEADERS += \
     readxmlprofile.h \
-    logger.h
+    logger.h \
+    nelement.h \
+    cemptyelement.h \
+    celementwithcontent.h \
+    ielementtag.h
