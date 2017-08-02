@@ -14,7 +14,8 @@ SOURCES += main.cpp \
     logger.cpp \
     cemptyelement.cpp \
     celementwithcontent.cpp \
-    ielementtag.cpp
+    ielementtag.cpp \
+    cxmlparser.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -33,4 +34,5 @@ HEADERS += \
     nelement.h \
     cemptyelement.h \
     celementwithcontent.h \
-    ielementtag.h
+    ielementtag.h \
+    cxmlparser.h

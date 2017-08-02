@@ -1,12 +1,14 @@
 #include <QCoreApplication>
 
-#include "readxmlprofile.h"
+#include "cxmlparser.h"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    ReadXmlProfile xmlProfile("xmlProfile.xml");
+    CXMLParser parser;
+    parser.pareser();
+
 
     return a.exec();
 }

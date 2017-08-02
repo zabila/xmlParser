@@ -12,6 +12,8 @@ class ReadXmlProfile
 public:
     ReadXmlProfile(const QString& patchName);
     void readTextAllXmlProfile(const QString& patchName);
+    const QString& getXmlProfile() const;
+
 private:
     QString m_xmlProfile_;
 };

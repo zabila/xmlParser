@@ -23,3 +23,10 @@ void ReadXmlProfile::readTextAllXmlProfile(const QString &patchName)
        m_xmlProfile_ = stream.readAll();
    }
 }
+
+//-----------------------------------------------------------------------------
+const QString &ReadXmlProfile::getXmlProfile() const
+//-----------------------------------------------------------------------------
+{
+    return m_xmlProfile_;
+}

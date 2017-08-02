@@ -6,11 +6,13 @@
 namespace NElement {
 namespace
 NEmptyElement {
-const QString myNameElemet = "x";
+const QString X_POSITION = "x";
+const QString Y_POSITION = "y";
 }
 namespace
 NElementWithContent {
-const QString myNameElemet = "Indicator";
+const QString INDICATORS = "Indicators";
+const QString INDICATOR_NAME_SPEED = "Speed";
 }
 }
 
