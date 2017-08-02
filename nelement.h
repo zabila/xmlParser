@@ -4,16 +4,12 @@
 #include <QString>
 
 namespace NElement {
-namespace
-NEmptyElement {
+const QString NAME = "name";
+const QString INDICATORS = "indicators";
 const QString X_POSITION = "x";
 const QString Y_POSITION = "y";
-}
-namespace
-NElementWithContent {
-const QString INDICATORS = "Indicators";
+const QString INDICATOR = "indicator";
 const QString INDICATOR_NAME_SPEED = "Speed";
-}
 }
 
 #endif // NELEMENT_H

@@ -1,10 +1,11 @@
 #include "celementwithcontent.h"
 
 //-----------------------------------------------------------------------------
-CElementWithContent::CElementWithContent()
+CElementWithContent::CElementWithContent(const QString &name):
+    m_nameElement_(name)
 //-----------------------------------------------------------------------------
 {
-
+    qDebug() << "Create CElement with content";
 }
 
 //-----------------------------------------------------------------------------
